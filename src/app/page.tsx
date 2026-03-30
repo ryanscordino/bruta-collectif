@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 export default function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [
-    "/logo1.jpeg",
+    "/logo-1.jpeg",
     "/logo-2.jpeg",
     "/logo-3.jpeg",
     "/logo-4.jpeg",
