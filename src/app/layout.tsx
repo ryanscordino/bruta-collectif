@@ -15,6 +15,21 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "BRUTA COLLECTIF",
   description: "collectif culinaire",
+  openGraph: {
+    title: "BRUTA COLLECTIF",
+    description: "collectif culinaire // private events",
+    // url: "https://bruta-collectif.com",
+    siteName: "BRUTA COLLECTIF",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "BRUTA COLLECTIF",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
